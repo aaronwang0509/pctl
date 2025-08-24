@@ -27,6 +27,18 @@ go.work.sum
 # env file
 .env
 
+# Real configurations (sensitive)
+configs/*/real/
+
+# Example directories (contain original tools)
+examples/
+
+# Config examples (but we'll add specific ones we want)
+# configs/*/examples/ can be selectively added
+
+# Binaries
+bin/
+
 # Editor/IDE
 # .idea/
 # .vscode/
